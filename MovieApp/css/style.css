@@ -47,3 +47,25 @@ img:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
+
+.content {
+  border: 1px solid red;
+  display: none;
+}
+
+.content,
+.content-close {
+  cursor: pointer;
+}
+
+.content div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+
+.content-display {
+  display: block;
+}
